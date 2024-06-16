@@ -99,7 +99,7 @@ showMenu()
 func viewRecords() {
     print("⚾️ 게임 기록을 확인하겠습니다.")
     if gameRecords.isEmpty {
-        print("- 기록이 없습니다. -")
+        print("기록이 없습니다.")
     }
     else {
         for (index, record) in gameRecords.enumerated() {
